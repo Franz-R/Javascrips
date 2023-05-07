@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(208, 207, 207);
+}
+
+.formulario{
+    background: rgb(237, 237, 235);
+    border-radius: 7px;
+    width: 250px;
+    height: 300px; 
+    margin-top: 20px;
+    margin-left:800px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 4px 6px 1px gray;
+}
+.cajas{
+    position: relative;
+}
+.login{
+    letter-spacing: 4px;
+}
+
+
+.cajas input{
+    width: 220px;
+    height: 24px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: gray;
+    
+}
+.cajas label{
+    margin-left: 1px;
+    margin-top: 4px;
+    position: absolute;
+    left: 10px;
+    padding: 1px;
+    font-size: 10px;
+
+}
+
+.btn{
+    margin-top: 15px;
+    width: 230px;
+    height: 28px;
+    border-radius:  5px; ;
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.btn:hover{
+    background-color: rgb(201, 197, 197);
+    color:rgb(237, 237, 237);
+}
+
+.lineas{
+    position: relative;
+    top: 15px;
+    margin: 10px;
+    width: 230px;
+    
+}
+.linea1{
+    color: gray;
+    width: 95px;
+    height: 10px;
+    margin: 10px;
+    position: absolute;
+    border:0px;
+    border-top: 1px solid;
+    margin-left: 1px;
+}
+.linea2{
+    color: gray;
+    width: 95px;
+    height: 10px;
+    margin: 10px;
+    position: absolute;
+    border:0px;
+    border-top: 1px solid;
+    right: 0;
+    top: 0;
+    margin-right: 0px;
+}
+.registrate{
+    font-size: 12px;
+    margin-top: 50px;
+}
