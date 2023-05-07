@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../fondo-1.jpg);
+
+}
+.titulo{
+    color: brown;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.formulario{
+    box-shadow: 2px 2px 30px 10px #520e866a; ;
+    background:local;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin-left: 300px;
+
+}
+.form-input{
+    margin: 10px;
+    width: 350px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid;
+    color:beige;
+    outline: none;
+    font-size: 20px;
+    
+}
+
+.mostrar{
+    background: rgb(26, 2, 47);
+    color:beige;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
+#respuesta{
+    color: blanchedalmond;
+    font-size: 20px;
+}
